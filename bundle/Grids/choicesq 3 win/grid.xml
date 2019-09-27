@@ -1,0 +1,33 @@
+<Grid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GridGuid>3cb7d51a-5da6-464a-b6ef-0a3ecf8a2203</GridGuid>
+  <ColumnDefinitions>
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+  </ColumnDefinitions>
+  <RowDefinitions>
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+  </RowDefinitions>
+  <AutoContentCommands />
+  <Cells>
+    <Cell ColumnSpan="5" RowSpan="4">
+      <Content>
+        <CaptionAndImage>
+          <Image>.png</Image>
+        </CaptionAndImage>
+        <Style>
+          <BasedOnStyle>Default</BasedOnStyle>
+        </Style>
+      </Content>
+    </Cell>
+  </Cells>
+  <ScanBlockAudioDescriptions />
+  <WordList>
+    <Items />
+  </WordList>
+</Grid>

@@ -1,0 +1,164 @@
+<Grid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BackgroundColour>#000000FF</BackgroundColour>
+  <GridGuid>33769c23-ba9c-4351-abb6-8b14093d588e</GridGuid>
+  <ColumnDefinitions>
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+  </ColumnDefinitions>
+  <RowDefinitions>
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+  </RowDefinitions>
+  <AutoContentCommands />
+  <Cells>
+    <Cell X="4" ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+        </Commands>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+    <Cell X="6" ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+          <Command ID="Jump.To">
+            <Parameter Key="grid">grid 3 win</Parameter>
+          </Command>
+          <Command ID="CommandExecution.Wait">
+            <Parameter Key="waittime">00:00:02.3000000</Parameter>
+            <Parameter Key="cancellable">1</Parameter>
+          </Command>
+          <Command ID="Jump.To">
+            <Parameter Key="grid">grid 4</Parameter>
+          </Command>
+        </Commands>
+        <CaptionAndImage>
+          <Image>.png</Image>
+        </CaptionAndImage>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+    <Cell X="4" Y="4" ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+        </Commands>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+    <Cell X="6" Y="4" ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+        </Commands>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+    <Cell X="2" ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+        </Commands>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+    <Cell Y="4" ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+        </Commands>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+    <Cell X="2" Y="4" ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+        </Commands>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+    <Cell ColumnSpan="2" RowSpan="4">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+        </Commands>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+          <BorderColour>#FFFFFFFF</BorderColour>
+        </Style>
+      </Content>
+    </Cell>
+  </Cells>
+  <ScanBlockAudioDescriptions />
+  <WordList>
+    <Items />
+  </WordList>
+</Grid>

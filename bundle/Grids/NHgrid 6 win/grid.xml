@@ -1,0 +1,58 @@
+<Grid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BackgroundColour>#000000FF</BackgroundColour>
+  <GridGuid>757634fe-097f-4cff-ae6a-a001b61cc23f</GridGuid>
+  <ColumnDefinitions>
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+  </ColumnDefinitions>
+  <RowDefinitions>
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+  </RowDefinitions>
+  <AutoContentCommands />
+  <Cells>
+    <Cell ColumnSpan="8" RowSpan="8">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+          <Command ID="Jump.To">
+            <Parameter Key="grid">grid 5 win</Parameter>
+          </Command>
+          <Command ID="CommandExecution.Wait">
+            <Parameter Key="waittime">00:00:02.3000000</Parameter>
+            <Parameter Key="cancellable">1</Parameter>
+          </Command>
+          <Command ID="Jump.To">
+            <Parameter Key="grid">grid 6</Parameter>
+          </Command>
+        </Commands>
+        <CaptionAndImage>
+          <Image>.png</Image>
+        </CaptionAndImage>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#FFFFFFFF</BackColour>
+        </Style>
+      </Content>
+    </Cell>
+  </Cells>
+  <ScanBlockAudioDescriptions />
+  <WordList>
+    <Items />
+  </WordList>
+</Grid>

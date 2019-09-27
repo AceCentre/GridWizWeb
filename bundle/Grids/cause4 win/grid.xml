@@ -1,0 +1,37 @@
+<Grid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GridGuid>3cfb0bef-40d3-4b3b-af4b-4e90f2f9efd9</GridGuid>
+  <ColumnDefinitions>
+    <ColumnDefinition />
+  </ColumnDefinitions>
+  <RowDefinitions>
+    <RowDefinition />
+  </RowDefinitions>
+  <AutoContentCommands />
+  <Cells>
+    <Cell>
+      <Content>
+        <Commands>
+          <Command ID="CommandExecution.Wait">
+            <Parameter Key="waittime">00:00:06</Parameter>
+            <Parameter Key="cancellable">1</Parameter>
+          </Command>
+          <Command ID="Jump.To">
+            <Parameter Key="grid">cause1</Parameter>
+          </Command>
+        </Commands>
+        <CaptionAndImage>
+          <Image>.png</Image>
+        </CaptionAndImage>
+        <Style>
+          <BasedOnStyle>Default</BasedOnStyle>
+          <FontColour>#FFFFFFFF</FontColour>
+          <FontSize>8</FontSize>
+        </Style>
+      </Content>
+    </Cell>
+  </Cells>
+  <ScanBlockAudioDescriptions />
+  <WordList>
+    <Items />
+  </WordList>
+</Grid>

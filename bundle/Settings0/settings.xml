@@ -1,0 +1,15 @@
+<GridSetSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PictureSearch>
+    <PictureSearchKeys>
+      <PictureSearchKey>widgit</PictureSearchKey>
+      <PictureSearchKey>sstix#</PictureSearchKey>
+      <PictureSearchKey>ssnaps</PictureSearchKey>
+    </PictureSearchKeys>
+  </PictureSearch>
+  <Appearance />
+  <StartGrid>Start</StartGrid>
+  <Description>This is the base template for GridWiz - a dynamic tool to create custom choice making gridsets</Description>
+  <ThumbnailBackground>#61BD6DFF</ThumbnailBackground>
+  <Thumbnail>[widgit]widgit rebus\w\wizard.emf</Thumbnail>
+  <GridSetFileFormatVersion>1</GridSetFileFormatVersion>
+</GridSetSettings>

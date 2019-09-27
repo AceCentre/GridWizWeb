@@ -1,0 +1,51 @@
+<Grid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BackgroundColour>#000000FF</BackgroundColour>
+  <GridGuid>08cd82fd-d4d2-4f69-9020-eb6b9676fb9c</GridGuid>
+  <ColumnDefinitions>
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+    <ColumnDefinition />
+  </ColumnDefinitions>
+  <RowDefinitions>
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+    <RowDefinition />
+  </RowDefinitions>
+  <AutoContentCommands />
+  <Cells>
+    <Cell ColumnSpan="8" RowSpan="8">
+      <Content>
+        <Commands>
+          <Command ID="Action.Speak">
+            <Parameter Key="unit">All</Parameter>
+            <Parameter Key="movecaret">0</Parameter>
+          </Command>
+          <Command ID="Jump.To">
+            <Parameter Key="grid">grid 2</Parameter>
+          </Command>
+        </Commands>
+        <CaptionAndImage>
+          <Image>.png</Image>
+        </CaptionAndImage>
+        <Style>
+          <BasedOnStyle>Actions category style</BasedOnStyle>
+          <BackColour>#EAF5FAFF</BackColour>
+        </Style>
+      </Content>
+    </Cell>
+  </Cells>
+  <ScanBlockAudioDescriptions />
+  <WordList>
+    <Items />
+  </WordList>
+</Grid>
